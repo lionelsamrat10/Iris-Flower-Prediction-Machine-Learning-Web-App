@@ -1,26 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Iris Flower Detection</title>
-</head>
-<body bgcolor=#d4a3ae>
+  </head>
+  <body bgcolor="#d4a3ae">
     <center>
-        <h1>IRIS FLOWER DETECTION</h1>
-        <p>Dataset Used: <a href="https://archive.ics.uci.edu/ml/datasets/iris">Iris DataSet by UCIrvine</a></p>
-        
-        <form method="POST" action="{{url_for('home')}}">
-            <b> Sepal length in cm :  <input type="text", name='a', placeholder="sepal length"> <br><br>
-                Sepal width in cm :  <input type="text", name='b', placeholder="sepal width"> <br><br>
-                Petal length in cm :  <input type="text", name='c', placeholder="petal length"> <br><br>
-                petal width in cm : <input type="text", name='d', placeholder="petal width"> <br><br><br></b>
-                <input type="submit" , value='Predict' >
-                <br>
-        </form>
-        <br>
-        <img src='static\flower1.jpg' alt="flower">
+      <h1>IRIS FLOWER DETECTION</h1>
+      <p>
+        Dataset Used:
+        <a href="https://archive.ics.uci.edu/ml/datasets/iris"
+          >Iris DataSet by UCIrvine</a
+        >
+      </p>
+
+      <form method="POST" action="{{url_for('home')}}">
+        <b>
+          Sepal length in cm :
+          <input type="text" , name="a" , placeholder="sepal length" />
+          <br /><br />
+          Sepal width in cm :
+          <input type="text" , name="b" , placeholder="sepal width" />
+          <br /><br />
+          Petal length in cm :
+          <input type="text" , name="c" , placeholder="petal length" />
+          <br /><br />
+          petal width in cm :
+          <input type="text" , name="d" , placeholder="petal width" />
+          <br /><br /><br
+        /></b>
+        <input type="submit" , value="Predict"/>
+        <br />
+      </form>
+      <br />
+      <img src="static\flower1.jpg" alt="flower" />
     </center>
-</body>
+  </body>
 </html>
