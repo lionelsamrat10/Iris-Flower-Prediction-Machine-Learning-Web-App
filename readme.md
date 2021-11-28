@@ -14,6 +14,9 @@ There are three type of Iris flowers, that can be predicted: Iris Versicolor, Ir
 
 ## Preview
 
+![iris_input|635x380](static/iris_app.PNG)
+![iris_predict|635x380](static/iris_2.PNG)
+
 ### Installation :
 
 Firstly Clone the Repository onto your local machine using the following command:
