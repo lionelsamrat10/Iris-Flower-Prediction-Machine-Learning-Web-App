@@ -1,7 +1,7 @@
 # Iris flower prediction web application
 
 A real time web application, that is built using the University of California, Irvine presented Iris Dataset, which basically predicts three types of Iris flowers based on the length, width of the sepals and the petals.
-There are three type of Iris flowers, that can be predicted: Iris Versicolor, Iris Setosa and Iris Virginica.Plesae ⭐ this repository if you found it useful. 
+There are three type of Iris flowers, that can be predicted: Iris Versicolor, Iris Setosa and Iris Virginica.Plesae ⭐ this repository if you found it useful.   
 
 ## Technologies Used:
 
