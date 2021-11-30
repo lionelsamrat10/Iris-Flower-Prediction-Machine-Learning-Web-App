@@ -9,8 +9,8 @@ There are three type of Iris flowers, that can be predicted: Iris Versicolor, Ir
 * `Numpy`
 * `Pandas`
 * `Matplotlib`
-* `Heroku for deployment`
-* `Git for Version Control`
+* `Heroku for deploying our web application`
+* `Git for Version Control` 
 
 ## Preview
 
